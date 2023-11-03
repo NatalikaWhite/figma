@@ -1,0 +1,136 @@
+body{
+    background: #333355;
+    margin: 0;
+}
+
+.menu{
+    background: #333369;
+    padding: 30px;
+}
+
+.rest{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.box{
+    display: flex;
+}
+.picture{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+.shrimps{
+    transform: rotate(-10deg);
+    border-radius: 10px;
+}
+.text{
+    align-self:center;
+    margin-left: 60px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.one{
+    color: #fff;
+    font-size: 25px;
+}
+.bottom{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #a7941a;
+    margin-top: 100px;
+
+}
+.two{
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+/*about*/
+
+.plates{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.plate{
+    height: 200px;
+    margin-left: 50px;
+}
+
+h1{
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #fff;
+}
+
+.btn{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.table{
+    padding: 15px;
+    background-color: #e06a04;
+    border: none;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #fff;
+    font-style: bold;
+    font-size: 18px;
+}
+
+@media all and (max-width:800px){
+    .rest{
+        flex-direction: column;
+        margin-left: 30px;
+    }
+    .menu{
+        width: 100%;
+    }
+    .box{
+        flex-direction: column;
+    }
+    .shrimps{
+        transform: none;
+    }
+    .bottom{
+        justify-content: center;
+    }
+    .btn{
+        justify-content: center;
+    }
+    .text{
+        margin-left: 50px;
+    }
+}
+
+@media all and (max-width:500px){
+    .picture{
+        justify-content: center;
+    }
+    .two{
+        font-size: 15px;
+    }
+    .one{
+        font-size: 15px;
+    }
+    .table{
+        font-size: 15px;
+    }
+    .plate{
+        width: 90%;
+        height: 100px;
+    }
+}
+
+@media all and (max-width:300px){
+    .table{
+        font-size: 15px;
+    }
+}
